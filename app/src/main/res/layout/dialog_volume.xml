@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_volume"
+    android:gravity="center"
+    >
+    <com.terry.verticalbardemo.widget.VerticalSeekBar
+        android:id="@+id/volumebar"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="97.8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:progressDrawable="@drawable/volume_bar"
+        android:thumb="@drawable/volume_thumb"
+        android:thumbOffset="0dp"
+        android:background="@null"
+        />
+</FrameLayout>
